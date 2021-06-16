@@ -30,6 +30,10 @@ body {
   margin: 0 15px;
 }
 
+section {
+  margin-bottom: 24px;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -42,6 +46,14 @@ body {
   color: var(--color-light-gray);
   background-color: var(--color-light-gray);
   border: none;
+}
+
+.dot {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  background-color: var(--color-dark-gray);
+  border-radius: 50%;
 }
 
 @media only screen and (min-width: 1024px) {
