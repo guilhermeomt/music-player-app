@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="styles/pages/index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music Player App</title>
-</head>
-<body>
-    <h1>Music Player App</h1>
-</body>
+  </head>
+  <body>
+    <header class="menu-bar">
+      <div class="menu-bar__left">
+        <a href="#">
+          <img src="assets/icons/menu.svg" alt="Menu" />
+        </a>
+        <h3 class="menu-bar__title">Music Player</h3>
+      </div>
+      <div class="menu-bar__right">
+        <a class="menu-bar__search" href="#">
+          <img src="assets/icons/search.svg" alt="Procurar" />
+        </a>
+      </div>
+    </header>
+
+    <section class="categories">
+      <h2 class="categories__title section-title">Navegue por categoria</h2>
+      <ul class="categories__list">
+        <li class="categories__item">
+          <div class="categories__icon categories__icon--podcasts">
+            <img src="assets/icons/podcasts.svg" alt="Podcasts" />
+          </div>
+          <p class="categories__text">Podcasts</p>
+        </li>
+        <li class="categories__item">
+          <div class="categories__icon categories__icon--rock">
+            <img src="assets/icons/rock.svg" alt="Rock" />
+          </div>
+          <p class="categories__text">Rock</p>
+        </li>
+        <li class="categories__item">
+          <div class="categories__icon categories__icon--pagode">
+            <img src="assets/icons/pagode.svg" alt="Pagode" />
+          </div>
+          <p class="categories__text">Pagode</p>
+        </li>
+        <li class="categories__item">
+          <div class="categories__icon categories__icon--all">
+            <img src="assets/icons/plus.svg" alt="Ver mais" />
+          </div>
+          <p class="categories__text">Ver todas</p>
+        </li>
+      </ul>
+    </section>
+
+    <div class="container">
+      <button class="btn btn--normal">Ver mais</button>
+    </div>
+  </body>
 </html>
