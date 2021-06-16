@@ -39,6 +39,20 @@ section {
   justify-content: center;
 }
 
+.section-title {
+  margin-left: 3px;
+}
+
+.footer-text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  text-align: center;
+  padding: 14px 0;
+  color: rgba(47, 47, 47, 0.5);
+}
+
 .horizontal-line {
   margin-top: 85px;
   width: 100%;
@@ -60,5 +74,9 @@ section {
   body {
     width: 30%;
     margin: 0 auto;
+  }
+
+  .menu-bar__right {
+    margin-right: 12px;
   }
 }

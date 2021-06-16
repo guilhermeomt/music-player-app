@@ -74,17 +74,3 @@ h4 {
   font-weight: 700;
   font-style: italic;
 }
-
-.footer-text {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 15px;
-  text-align: center;
-  padding: 14px 0;
-  color: rgba(47, 47, 47, 0.5);
-}
-
-.section-title {
-  margin-left: 4px;
-}
