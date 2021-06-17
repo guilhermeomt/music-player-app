@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="styles/pages/playlist.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playlist | Music Player App</title>
+  </head>
+  <body>
+    <header class="menu-bar menu-bar--playlist">
+      <div class="menu-bar__left">
+        <a href="index.html">
+          <img src="assets/icons/arrow-left.svg" alt="Voltar" />
+        </a>
+      </div>
+      <div class="menu-bar__right">
+        <a href="#">
+          <img src="assets/icons/more-dots-vertical.svg" alt="Mais" />
+        </a>
+      </div>
+    </header>
+
+    <div class="playlist-cover">
+      <div class="playlist-cover__top">
+        <img
+          class="playlist-cover__img"
+          src="assets/images/playlist-cover1-small.png"
+          alt="Capa Jota Quest"
+        />
+        <button class="playlist-cover__play">
+          <img src="assets/icons/play.svg" alt="Play" />
+        </button>
+      </div>
+      <div class="playlist-cover__caption">
+        <h3 class="playlist-cover__title">Acústico Jota Quest</h3>
+        <p class="paragraph-2 playlist-cover__info">
+          Jota Quest <span class="dot"></span> 6 músicas
+        </p>
+      </div>
+    </div>
+
+    <div class="playlist">
+      <div class="playlist-item">
+        <div class="playlist-item__left">
+          <h4 class="playlist-item__index">1</h4>
+          <p class="paragraph-1 playlist-item__title">Dias melhores</p>
+        </div>
+        <div class="playlist-item__right">
+          <span class="paragraph-1 playlist-item__duration">3:20</span>
+          <button class="playlist-item__controls">
+            <img src="assets/icons/more-dots-vertical.svg" alt="Controles" />
+          </button>
+        </div>
+      </div>
+
+      <div class="playlist-item">
+        <div class="playlist-item__left">
+          <h4 class="playlist-item__index">2</h4>
+          <p class="paragraph-1 playlist-item__title">
+            O que eu também não entendo
+          </p>
+        </div>
+        <div class="playlist-item__right">
+          <span class="paragraph-1 playlist-item__duration">1:53</span>
+          <button class="playlist-item__controls">
+            <img src="assets/icons/more-dots-vertical.svg" alt="Controles" />
+          </button>
+        </div>
+      </div>
+
+      <div class="playlist-item">
+        <div class="playlist-item__left">
+          <h4 class="playlist-item__index">3</h4>
+          <p class="paragraph-1 playlist-item__title">Encontrar Alguém</p>
+        </div>
+        <div class="playlist-item__right">
+          <span class="paragraph-1 playlist-item__duration">4:16</span>
+          <button class="playlist-item__controls">
+            <img src="assets/icons/more-dots-vertical.svg" alt="Controles" />
+          </button>
+        </div>
+      </div>
+
+      <div class="playlist-item playlist-item--active">
+        <div class="playlist-item__left">
+          <h4 class="playlist-item__index">4</h4>
+          <p class="paragraph-1 playlist-item__title">Mandou Bem</p>
+        </div>
+        <div class="playlist-item__right">
+          <span
+            class="
+              paragraph-1
+              playlist-item__duration playlist-item__duration--active
+            "
+            >3:20</span
+          >
+          <button class="playlist-item__controls">
+            <img
+              src="assets/icons/more-dots-vertical-white.svg"
+              alt="Controles"
+            />
+          </button>
+        </div>
+      </div>
+
+      <div class="playlist-item">
+        <div class="playlist-item__left">
+          <h4 class="playlist-item__index">5</h4>
+          <p class="paragraph-1 playlist-item__title">Morrer de Amor</p>
+        </div>
+        <div class="playlist-item__right">
+          <span class="paragraph-1 playlist-item__duration">3:12</span>
+          <button class="playlist-item__controls">
+            <img src="assets/icons/more-dots-vertical.svg" alt="Controles" />
+          </button>
+        </div>
+      </div>
+
+      <div class="playlist-item">
+        <div class="playlist-item__left">
+          <h4 class="playlist-item__index">6</h4>
+          <p class="paragraph-1 playlist-item__title">Amor Maior</p>
+        </div>
+        <div class="playlist-item__right">
+          <span class="paragraph-1 playlist-item__duration">3:54</span>
+          <button class="playlist-item__controls">
+            <img src="assets/icons/more-dots-vertical.svg" alt="Controles" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="music-player">
+      <div class="music-player__left">
+        <h4 class="music-player__title">Mandou Bem</h4>
+        <p class="music-player__subtitle">Acústico Jota Quest</p>
+      </div>
+      <div class="music-player__right">
+        <div class="music-player__controls">
+          <button class="music-player__backwards">
+            <img src="assets/icons/backwards.svg" alt="Voltar" />
+          </button>
+          <button class="music-player__toggle">
+            <img src="assets/icons/pause.svg" alt="Pausar/Tocar" />
+          </button>
+          <button class="music-player__forwards">
+            <img src="assets/icons/forwards.svg" alt="Avançar" />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
