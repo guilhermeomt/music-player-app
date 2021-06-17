@@ -6,3 +6,7 @@
 @import '../components/playlist-cover.css';
 @import '../components/playlist-item.css';
 @import '../components/music-player.css';
+
+body {
+  margin: auto;
+}
