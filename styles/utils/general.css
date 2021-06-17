@@ -27,7 +27,6 @@ body {
   background-color: var(--color-white);
   color: var(--color-dark-gray);
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  margin: 0 15px;
 }
 
 section {
@@ -74,9 +73,5 @@ section {
   body {
     width: 30%;
     margin: 0 auto;
-  }
-
-  .menu-bar__right {
-    margin-right: 12px;
   }
 }
